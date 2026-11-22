@@ -1,0 +1,6 @@
+flowchart LR
+    APP[Flutter Dart trên Android] -->|REST JSON và upload ảnh| API[C# ASP.NET Core 10]
+    API -->|Dapper và SQL| DB[(SQL Server)]
+    APP --> SQLITE[(SQLite nháp cục bộ)]
+    APP --> SECURE[Secure Storage token hồ sơ URL]
+    API --> FILE[wwwroot/uploads]

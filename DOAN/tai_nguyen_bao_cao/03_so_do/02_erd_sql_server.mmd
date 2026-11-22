@@ -1,0 +1,26 @@
+erDiagram
+    Roles ||--o{ Members : RoleId
+    Members ||--o{ PlanItems : MemberId
+    Members ||--o{ Campaigns : MemberId
+    Members ||--o{ Responses : MemberId
+    Categories ||--o{ Surveys : CategoryId
+    Surveys ||--o{ PlanItems : SurveyId
+    Surveys ||--o{ CampaignItems : SurveyId
+    Campaigns ||--o{ CampaignItems : CampaignId
+    CampaignItems ||--o{ Responses : ItemId
+    Roles { int RoleId PK }
+    Members { int MemberId PK
+        int RoleId FK }
+    Categories { int CategoryId PK }
+    Surveys { int SurveyId PK
+        int CategoryId FK }
+    PlanItems { int MemberId PK,FK
+        int SurveyId PK,FK }
+    Campaigns { int CampaignId PK
+        int MemberId FK }
+    CampaignItems { int ItemId PK
+        int CampaignId FK
+        int SurveyId FK }
+    Responses { int ResponseId PK
+        int ItemId FK
+        int MemberId FK }

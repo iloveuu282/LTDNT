@@ -1,0 +1,742 @@
+[
+  {
+    "file": "cuoiki/survey_app/lib/main.dart",
+    "needle": "void main()",
+    "line": 10
+  },
+  {
+    "file": "cuoiki/SurveyApi/Program.cs",
+    "needle": "var builder",
+    "line": 6
+  },
+  {
+    "file": "cuoiki/survey_app/lib/local/local_database.dart",
+    "needle": "class LocalDatabase",
+    "line": 4
+  },
+  {
+    "file": "cuoiki/survey_app/lib/models/survey.dart",
+    "needle": "class Survey",
+    "line": 40
+  },
+  {
+    "file": "cuoiki/SurveyApi/Api/Models/Survey.cs",
+    "needle": "public class Survey",
+    "line": 22
+  },
+  {
+    "file": "cuoiki/survey_app/lib/main.dart",
+    "needle": "class SurveyApp",
+    "line": 26
+  },
+  {
+    "file": "cuoiki/survey_app/lib/pages/login_page.dart",
+    "needle": "class LoginPage",
+    "line": 9
+  },
+  {
+    "file": "cuoiki/survey_app/lib/pages/home_page.dart",
+    "needle": "class HomePage",
+    "line": 17
+  },
+  {
+    "file": "cuoiki/survey_app/lib/pages/survey_list_view.dart",
+    "needle": "class SurveyListView",
+    "line": 11
+  },
+  {
+    "file": "cuoiki/survey_app/lib/pages/change_password_page.dart",
+    "needle": "class ChangePasswordPage",
+    "line": 8
+  },
+  {
+    "file": "cuoiki/survey_app/lib/pages/member_page.dart",
+    "needle": "class MemberPage",
+    "line": 6
+  },
+  {
+    "file": "cuoiki/survey_app/lib/pages/category_page.dart",
+    "needle": "class CategoryPage",
+    "line": 12
+  },
+  {
+    "file": "cuoiki/survey_app/lib/pages/survey_edit_page.dart",
+    "needle": "class SurveyEditPage",
+    "line": 8
+  },
+  {
+    "file": "cuoiki/survey_app/lib/pages/survey_edit_page.dart",
+    "needle": "class QuestionDialog",
+    "line": 241
+  },
+  {
+    "file": "cuoiki/survey_app/lib/pages/survey_details_page.dart",
+    "needle": "class SurveyDetailsPage",
+    "line": 10
+  },
+  {
+    "file": "cuoiki/survey_app/lib/pages/plan_page.dart",
+    "needle": "class PlanPage",
+    "line": 8
+  },
+  {
+    "file": "cuoiki/survey_app/lib/pages/campaign_list_page.dart",
+    "needle": "class CampaignListPage",
+    "line": 8
+  },
+  {
+    "file": "cuoiki/survey_app/lib/pages/campaign_details_page.dart",
+    "needle": "class CampaignDetailsPage",
+    "line": 9
+  },
+  {
+    "file": "cuoiki/survey_app/lib/pages/response_page.dart",
+    "needle": "class ResponsePage",
+    "line": 11
+  },
+  {
+    "file": "cuoiki/survey_app/lib/pages/drafts_page.dart",
+    "needle": "class DraftsPage",
+    "line": 9
+  },
+  {
+    "file": "cuoiki/survey_app/lib/pages/results_page.dart",
+    "needle": "class ResultsPage",
+    "line": 6
+  },
+  {
+    "file": "cuoiki/survey_app/lib/pages/server_settings_page.dart",
+    "needle": "class ServerSettingsPage",
+    "line": 6
+  },
+  {
+    "file": "cuoiki/survey_app/lib/main.dart",
+    "needle": "class SurveyApp",
+    "line": 26
+  },
+  {
+    "file": "cuoiki/survey_app/lib/pages/login_page.dart",
+    "needle": "class LoginPage",
+    "line": 9
+  },
+  {
+    "file": "cuoiki/survey_app/lib/pages/home_page.dart",
+    "needle": "class HomePage",
+    "line": 17
+  },
+  {
+    "file": "cuoiki/survey_app/lib/pages/survey_list_view.dart",
+    "needle": "class SurveyListView",
+    "line": 11
+  },
+  {
+    "file": "cuoiki/survey_app/lib/pages/change_password_page.dart",
+    "needle": "class ChangePasswordPage",
+    "line": 8
+  },
+  {
+    "file": "cuoiki/survey_app/lib/pages/member_page.dart",
+    "needle": "class MemberPage",
+    "line": 6
+  },
+  {
+    "file": "cuoiki/survey_app/lib/pages/category_page.dart",
+    "needle": "class CategoryPage",
+    "line": 12
+  },
+  {
+    "file": "cuoiki/survey_app/lib/pages/survey_edit_page.dart",
+    "needle": "class SurveyEditPage",
+    "line": 8
+  },
+  {
+    "file": "cuoiki/survey_app/lib/pages/survey_edit_page.dart",
+    "needle": "class QuestionDialog",
+    "line": 241
+  },
+  {
+    "file": "cuoiki/survey_app/lib/pages/survey_details_page.dart",
+    "needle": "class SurveyDetailsPage",
+    "line": 10
+  },
+  {
+    "file": "cuoiki/survey_app/lib/pages/plan_page.dart",
+    "needle": "class PlanPage",
+    "line": 8
+  },
+  {
+    "file": "cuoiki/survey_app/lib/pages/campaign_list_page.dart",
+    "needle": "class CampaignListPage",
+    "line": 8
+  },
+  {
+    "file": "cuoiki/survey_app/lib/pages/campaign_details_page.dart",
+    "needle": "class CampaignDetailsPage",
+    "line": 9
+  },
+  {
+    "file": "cuoiki/survey_app/lib/pages/response_page.dart",
+    "needle": "class ResponsePage",
+    "line": 11
+  },
+  {
+    "file": "cuoiki/survey_app/lib/pages/drafts_page.dart",
+    "needle": "class DraftsPage",
+    "line": 9
+  },
+  {
+    "file": "cuoiki/survey_app/lib/pages/results_page.dart",
+    "needle": "class ResultsPage",
+    "line": 6
+  },
+  {
+    "file": "cuoiki/survey_app/lib/pages/server_settings_page.dart",
+    "needle": "class ServerSettingsPage",
+    "line": 6
+  },
+  {
+    "file": "cuoiki/survey_app/lib/main.dart",
+    "needle": "void main()",
+    "line": 10
+  },
+  {
+    "file": "cuoiki/survey_app/lib/pages/home_page.dart",
+    "needle": "Future<void> _open",
+    "line": 44
+  },
+  {
+    "file": "cuoiki/survey_app/lib/pages/survey_list_view.dart",
+    "needle": "Future<void> _details",
+    "line": 78
+  },
+  {
+    "file": "cuoiki/survey_app/lib/models/member.dart",
+    "needle": "class Member",
+    "line": 1
+  },
+  {
+    "file": "cuoiki/survey_app/lib/models/survey.dart",
+    "needle": "class Category",
+    "line": 1
+  },
+  {
+    "file": "cuoiki/survey_app/lib/repositories/member_repository.dart",
+    "needle": "class MemberRepository",
+    "line": 9
+  },
+  {
+    "file": "cuoiki/survey_app/lib/repositories/survey_repository.dart",
+    "needle": "class SurveyRepository",
+    "line": 10
+  },
+  {
+    "file": "cuoiki/survey_app/lib/repositories/campaign_repository.dart",
+    "needle": "class CampaignRepository",
+    "line": 6
+  },
+  {
+    "file": "cuoiki/survey_app/lib/services/api_service.dart",
+    "needle": "class ApiService",
+    "line": 9
+  },
+  {
+    "file": "cuoiki/survey_app/lib/services/session_helper.dart",
+    "needle": "class SessionHelper",
+    "line": 7
+  },
+  {
+    "file": "cuoiki/survey_app/lib/widgets/common.dart",
+    "needle": "class PageButtons",
+    "line": 32
+  },
+  {
+    "file": "cuoiki/survey_app/lib/widgets/category_image.dart",
+    "needle": "class CategoryImage",
+    "line": 5
+  },
+  {
+    "file": "cuoiki/survey_app/lib/local/local_database.dart",
+    "needle": "class LocalDatabase",
+    "line": 4
+  },
+  {
+    "file": "cuoiki/SurveyApi/Program.cs",
+    "needle": "var builder",
+    "line": 6
+  },
+  {
+    "file": "cuoiki/SurveyApi/Api/Models/SiteProvider.cs",
+    "needle": "public sealed class SiteProvider",
+    "line": 5
+  },
+  {
+    "file": "cuoiki/SurveyApi/Api/Controllers/AuthController.cs",
+    "needle": "public class AuthController",
+    "line": 13
+  },
+  {
+    "file": "cuoiki/SurveyApi/Api/Controllers/MemberController.cs",
+    "needle": "public class MemberController",
+    "line": 10
+  },
+  {
+    "file": "cuoiki/SurveyApi/Api/Controllers/CategoryController.cs",
+    "needle": "public class CategoryController",
+    "line": 10
+  },
+  {
+    "file": "cuoiki/SurveyApi/Api/Controllers/SurveyController.cs",
+    "needle": "public class SurveyController",
+    "line": 10
+  },
+  {
+    "file": "cuoiki/SurveyApi/Api/Controllers/PlanController.cs",
+    "needle": "public class PlanController",
+    "line": 10
+  },
+  {
+    "file": "cuoiki/SurveyApi/Api/Controllers/CampaignController.cs",
+    "needle": "public class CampaignController",
+    "line": 11
+  },
+  {
+    "file": "cuoiki/SurveyApi/Api/Models/Member.cs",
+    "needle": "public class Member",
+    "line": 5
+  },
+  {
+    "file": "cuoiki/SurveyApi/Api/Models/Survey.cs",
+    "needle": "public class Category",
+    "line": 6
+  },
+  {
+    "file": "cuoiki/SurveyApi/Database/004_surveys_campaigns.sql",
+    "needle": "CREATE TABLE Surveys",
+    "line": 5
+  },
+  {
+    "file": "cuoiki/SurveyApi/Database/005_category_images.sql",
+    "needle": "ALTER TABLE Categories",
+    "line": 4
+  },
+  {
+    "file": "cuoiki/survey_app/lib/local/local_database.dart",
+    "needle": "static Future<Database> open",
+    "line": 6
+  },
+  {
+    "file": "cuoiki/survey_app/lib/pages/survey_list_view.dart",
+    "needle": "final request = ++_request;",
+    "line": 47
+  },
+  {
+    "file": "cuoiki/survey_app/lib/repositories/survey_repository.dart",
+    "needle": "static Future<void> saveCategory(",
+    "line": 15
+  },
+  {
+    "file": "cuoiki/survey_app/lib/local/local_database.dart",
+    "needle": "static Future<void> saveDraft(",
+    "line": 40
+  },
+  {
+    "file": "cuoiki/survey_app/lib/pages/response_page.dart",
+    "needle": "Future<void> _store()",
+    "line": 58
+  },
+  {
+    "file": "cuoiki/SurveyApi/Api/Models/MemberRepository.cs",
+    "needle": "public Task<int> Add(",
+    "line": 20
+  },
+  {
+    "file": "cuoiki/SurveyApi/Api/Controllers/AuthController.cs",
+    "needle": "var expires =",
+    "line": 37
+  },
+  {
+    "file": "cuoiki/SurveyApi/Program.cs",
+    "needle": "OnTokenValidated =",
+    "line": 26
+  },
+  {
+    "file": "cuoiki/SurveyApi/Api/Controllers/CategoryController.cs",
+    "needle": "public async Task<IActionResult> Update(",
+    "line": 30
+  },
+  {
+    "file": "cuoiki/SurveyApi/Api/Models/SurveyRepository.cs",
+    "needle": "public async Task<string?> Update(",
+    "line": 41
+  },
+  {
+    "file": "cuoiki/SurveyApi/Api/Models/CampaignRepository.cs",
+    "needle": "public async Task<int> Checkout(",
+    "line": 26
+  },
+  {
+    "file": "cuoiki/SurveyApi/Api/Models/CampaignRepository.cs",
+    "needle": "public async Task Submit(",
+    "line": 74
+  },
+  {
+    "file": "cuoiki/SurveyApi/Api/Models/SurveyRules.cs",
+    "needle": "public static void ValidateAnswers(",
+    "line": 30
+  },
+  {
+    "file": "cuoiki/SurveyApi/Api/Controllers/CampaignController.cs",
+    "needle": "public async Task<IActionResult> Details",
+    "line": 28
+  },
+  {
+    "file": "cuoiki/SurveyApi/Api/Controllers/CampaignController.cs",
+    "needle": "public async Task<IActionResult> Results",
+    "line": 54
+  },
+  {
+    "file": "cuoiki/survey_app/lib/pages/login_page.dart",
+    "needle": "Future<void> _submit",
+    "line": 30
+  },
+  {
+    "file": "cuoiki/survey_app/lib/repositories/member_repository.dart",
+    "needle": "static Future<void> register",
+    "line": 94
+  },
+  {
+    "file": "cuoiki/SurveyApi/Api/Controllers/AuthController.cs",
+    "needle": "public async Task<IActionResult> Register",
+    "line": 16
+  },
+  {
+    "file": "cuoiki/SurveyApi/Api/Models/MemberRepository.cs",
+    "needle": "public Task<int> Add",
+    "line": 20
+  },
+  {
+    "file": "cuoiki/SurveyApi/Database/001_initial.sql",
+    "needle": "CREATE TABLE Members",
+    "line": 16
+  },
+  {
+    "file": "cuoiki/SurveyApi/Properties/launchSettings.json",
+    "needle": null,
+    "line": 1
+  },
+  {
+    "file": "cuoiki/enable-wifi.ps1",
+    "needle": null,
+    "line": 1
+  },
+  {
+    "file": "cuoiki/tests/full_api_check.ps1",
+    "needle": null,
+    "line": 1
+  },
+  {
+    "file": "cuoiki/SurveyApi/Api/Controllers/AuthController.cs",
+    "needle": null,
+    "line": 1
+  },
+  {
+    "file": "cuoiki/SurveyApi/Api/Controllers/CampaignController.cs",
+    "needle": null,
+    "line": 1
+  },
+  {
+    "file": "cuoiki/SurveyApi/Api/Controllers/CategoryController.cs",
+    "needle": null,
+    "line": 1
+  },
+  {
+    "file": "cuoiki/SurveyApi/Api/Controllers/MemberController.cs",
+    "needle": null,
+    "line": 1
+  },
+  {
+    "file": "cuoiki/SurveyApi/Api/Controllers/PlanController.cs",
+    "needle": null,
+    "line": 1
+  },
+  {
+    "file": "cuoiki/SurveyApi/Api/Controllers/SurveyController.cs",
+    "needle": null,
+    "line": 1
+  },
+  {
+    "file": "cuoiki/SurveyApi/Api/Models/BaseRepository.cs",
+    "needle": null,
+    "line": 1
+  },
+  {
+    "file": "cuoiki/SurveyApi/Api/Models/CampaignRepository.cs",
+    "needle": null,
+    "line": 1
+  },
+  {
+    "file": "cuoiki/SurveyApi/Api/Models/CategoryRepository.cs",
+    "needle": null,
+    "line": 1
+  },
+  {
+    "file": "cuoiki/SurveyApi/Api/Models/Member.cs",
+    "needle": null,
+    "line": 1
+  },
+  {
+    "file": "cuoiki/SurveyApi/Api/Models/MemberRepository.cs",
+    "needle": null,
+    "line": 1
+  },
+  {
+    "file": "cuoiki/SurveyApi/Api/Models/SiteProvider.cs",
+    "needle": null,
+    "line": 1
+  },
+  {
+    "file": "cuoiki/SurveyApi/Api/Models/Survey.cs",
+    "needle": null,
+    "line": 1
+  },
+  {
+    "file": "cuoiki/SurveyApi/Api/Models/SurveyRepository.cs",
+    "needle": null,
+    "line": 1
+  },
+  {
+    "file": "cuoiki/SurveyApi/Api/Models/SurveyRules.cs",
+    "needle": null,
+    "line": 1
+  },
+  {
+    "file": "cuoiki/SurveyApi/Program.cs",
+    "needle": null,
+    "line": 1
+  },
+  {
+    "file": "cuoiki/SurveyApi/Services/ImageService.cs",
+    "needle": null,
+    "line": 1
+  },
+  {
+    "file": "cuoiki/survey_app/lib/local/local_database.dart",
+    "needle": null,
+    "line": 1
+  },
+  {
+    "file": "cuoiki/survey_app/lib/main.dart",
+    "needle": null,
+    "line": 1
+  },
+  {
+    "file": "cuoiki/survey_app/lib/models/member.dart",
+    "needle": null,
+    "line": 1
+  },
+  {
+    "file": "cuoiki/survey_app/lib/models/survey.dart",
+    "needle": null,
+    "line": 1
+  },
+  {
+    "file": "cuoiki/survey_app/lib/pages/campaign_details_page.dart",
+    "needle": null,
+    "line": 1
+  },
+  {
+    "file": "cuoiki/survey_app/lib/pages/campaign_list_page.dart",
+    "needle": null,
+    "line": 1
+  },
+  {
+    "file": "cuoiki/survey_app/lib/pages/category_page.dart",
+    "needle": null,
+    "line": 1
+  },
+  {
+    "file": "cuoiki/survey_app/lib/pages/change_password_page.dart",
+    "needle": null,
+    "line": 1
+  },
+  {
+    "file": "cuoiki/survey_app/lib/pages/drafts_page.dart",
+    "needle": null,
+    "line": 1
+  },
+  {
+    "file": "cuoiki/survey_app/lib/pages/home_page.dart",
+    "needle": null,
+    "line": 1
+  },
+  {
+    "file": "cuoiki/survey_app/lib/pages/login_page.dart",
+    "needle": null,
+    "line": 1
+  },
+  {
+    "file": "cuoiki/survey_app/lib/pages/member_page.dart",
+    "needle": null,
+    "line": 1
+  },
+  {
+    "file": "cuoiki/survey_app/lib/pages/plan_page.dart",
+    "needle": null,
+    "line": 1
+  },
+  {
+    "file": "cuoiki/survey_app/lib/pages/response_page.dart",
+    "needle": null,
+    "line": 1
+  },
+  {
+    "file": "cuoiki/survey_app/lib/pages/results_page.dart",
+    "needle": null,
+    "line": 1
+  },
+  {
+    "file": "cuoiki/survey_app/lib/pages/server_settings_page.dart",
+    "needle": null,
+    "line": 1
+  },
+  {
+    "file": "cuoiki/survey_app/lib/pages/survey_details_page.dart",
+    "needle": null,
+    "line": 1
+  },
+  {
+    "file": "cuoiki/survey_app/lib/pages/survey_edit_page.dart",
+    "needle": null,
+    "line": 1
+  },
+  {
+    "file": "cuoiki/survey_app/lib/pages/survey_list_view.dart",
+    "needle": null,
+    "line": 1
+  },
+  {
+    "file": "cuoiki/survey_app/lib/repositories/campaign_repository.dart",
+    "needle": null,
+    "line": 1
+  },
+  {
+    "file": "cuoiki/survey_app/lib/repositories/member_repository.dart",
+    "needle": null,
+    "line": 1
+  },
+  {
+    "file": "cuoiki/survey_app/lib/repositories/survey_repository.dart",
+    "needle": null,
+    "line": 1
+  },
+  {
+    "file": "cuoiki/survey_app/lib/services/api_service.dart",
+    "needle": null,
+    "line": 1
+  },
+  {
+    "file": "cuoiki/survey_app/lib/services/session_helper.dart",
+    "needle": null,
+    "line": 1
+  },
+  {
+    "file": "cuoiki/survey_app/lib/widgets/category_image.dart",
+    "needle": null,
+    "line": 1
+  },
+  {
+    "file": "cuoiki/survey_app/lib/widgets/common.dart",
+    "needle": null,
+    "line": 1
+  },
+  {
+    "file": "cuoiki/survey_app/pubspec.yaml",
+    "needle": null,
+    "line": 1
+  },
+  {
+    "file": "cuoiki/survey_app/android/app/src/main/AndroidManifest.xml",
+    "needle": null,
+    "line": 1
+  },
+  {
+    "file": "cuoiki/survey_app/android/app/src/main/res/drawable/ic_survey_launcher.xml",
+    "needle": null,
+    "line": 1
+  },
+  {
+    "file": "cuoiki/survey_app/android/app/src/main/kotlin/vn/edu/doan/survey_app/MainActivity.kt",
+    "needle": null,
+    "line": 1
+  },
+  {
+    "file": "cuoiki/survey_app/android/app/build.gradle.kts",
+    "needle": null,
+    "line": 1
+  },
+  {
+    "file": "cuoiki/survey_app/android/gradle.properties",
+    "needle": null,
+    "line": 1
+  },
+  {
+    "file": "cuoiki/SurveyApi/SurveyApi.csproj",
+    "needle": null,
+    "line": 1
+  },
+  {
+    "file": "cuoiki/SurveyApi/Properties/launchSettings.json",
+    "needle": null,
+    "line": 1
+  },
+  {
+    "file": "cuoiki/enable-wifi.ps1",
+    "needle": null,
+    "line": 1
+  },
+  {
+    "file": "cuoiki/survey_app/test/widget_test.dart",
+    "needle": null,
+    "line": 1
+  },
+  {
+    "file": "cuoiki/survey_app/test/server_settings_test.dart",
+    "needle": null,
+    "line": 1
+  },
+  {
+    "file": "cuoiki/survey_app/test/local_database_test.dart",
+    "needle": null,
+    "line": 1
+  },
+  {
+    "file": "cuoiki/tests/full_api_check.ps1",
+    "needle": null,
+    "line": 1
+  },
+  {
+    "file": "cuoiki/SurveyApi/Database/001_initial.sql",
+    "needle": null,
+    "line": 1
+  },
+  {
+    "file": "cuoiki/SurveyApi/Database/002_member_management.sql",
+    "needle": null,
+    "line": 1
+  },
+  {
+    "file": "cuoiki/SurveyApi/Database/003_first_admin.sql",
+    "needle": null,
+    "line": 1
+  },
+  {
+    "file": "cuoiki/SurveyApi/Database/004_surveys_campaigns.sql",
+    "needle": null,
+    "line": 1
+  },
+  {
+    "file": "cuoiki/SurveyApi/Database/005_category_images.sql",
+    "needle": null,
+    "line": 1
+  }
+]

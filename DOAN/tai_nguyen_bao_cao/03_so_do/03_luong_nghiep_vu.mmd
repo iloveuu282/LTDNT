@@ -1,0 +1,9 @@
+flowchart TD
+    A[Admin chuẩn bị danh mục mẫu và câu hỏi] --> B[Người dùng lập kế hoạch và chỉ tiêu]
+    B --> C[Tạo chiến dịch Pending]
+    C --> D[Admin mở Active]
+    C --> E[Admin hủy Cancelled]
+    D --> F[Người dùng trả lời hoặc lưu nháp SQLite]
+    F --> G[Gửi phản hồi khi có kết nối]
+    G --> H[Chủ chiến dịch hoặc Admin xem kết quả]
+    D --> I[Admin đóng Closed]

@@ -1,0 +1,1 @@
+﻿{"passed":true,"count":6,"checks":["Save actual SQLite draft on Android","Preserve submission id after close and reopen","Preserve text, single, multiple and rating answers","Update same draft without duplicate","Clear only selected member data","Delete saved draft"],"error":null}

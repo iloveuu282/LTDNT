@@ -1,0 +1,1866 @@
+{
+  "updated": "2026-11-19",
+  "root": "DOAN",
+  "files": [
+    {
+      "file": "cuoiki/SurveyApi/Api/Controllers/AuthController.cs",
+      "lines": 81,
+      "sha256": "3ae756b820e360c5104c0a7d7871c9eeac2b6786c10323da14caa5d3c877ed7c",
+      "symbols": [
+        {
+          "name": "AuthController",
+          "line": 13,
+          "kind": "lớp/model"
+        },
+        {
+          "name": "Register",
+          "line": 16,
+          "kind": "hàm"
+        },
+        {
+          "name": "Login",
+          "line": 32,
+          "kind": "hàm"
+        },
+        {
+          "name": "Me",
+          "line": 50,
+          "kind": "hàm"
+        },
+        {
+          "name": "ChangePassword",
+          "line": 58,
+          "kind": "hàm"
+        },
+        {
+          "name": "Logout",
+          "line": 73,
+          "kind": "hàm"
+        },
+        {
+          "name": "PublicMember",
+          "line": 79,
+          "kind": "hàm"
+        }
+      ]
+    },
+    {
+      "file": "cuoiki/SurveyApi/Api/Controllers/CampaignController.cs",
+      "lines": 73,
+      "sha256": "b3ec8242fbdf1b8f1d886bfc45df3a0b65d4ffce96703be1d30aabfdad5ab0c2",
+      "symbols": [
+        {
+          "name": "CampaignController",
+          "line": 11,
+          "kind": "lớp/model"
+        },
+        {
+          "name": "Get",
+          "line": 16,
+          "kind": "hàm"
+        },
+        {
+          "name": "Details",
+          "line": 28,
+          "kind": "hàm"
+        },
+        {
+          "name": "Status",
+          "line": 36,
+          "kind": "hàm"
+        },
+        {
+          "name": "Submit",
+          "line": 44,
+          "kind": "hàm"
+        },
+        {
+          "name": "Results",
+          "line": 54,
+          "kind": "hàm"
+        }
+      ]
+    },
+    {
+      "file": "cuoiki/SurveyApi/Api/Controllers/CategoryController.cs",
+      "lines": 55,
+      "sha256": "03aa675b36de6d8ac230c4760e1ad960278d822446b28dfd03022a2ce3c65352",
+      "symbols": [
+        {
+          "name": "CategoryController",
+          "line": 10,
+          "kind": "lớp/model"
+        },
+        {
+          "name": "Get",
+          "line": 12,
+          "kind": "hàm"
+        },
+        {
+          "name": "Add",
+          "line": 14,
+          "kind": "hàm"
+        },
+        {
+          "name": "Update",
+          "line": 30,
+          "kind": "hàm"
+        },
+        {
+          "name": "Delete",
+          "line": 49,
+          "kind": "hàm"
+        }
+      ]
+    },
+    {
+      "file": "cuoiki/SurveyApi/Api/Controllers/MemberController.cs",
+      "lines": 42,
+      "sha256": "3883fdf9b7257f8e75937f3387d03b233127a9577ef7fa86ede61bb3dbf58571",
+      "symbols": [
+        {
+          "name": "MemberController",
+          "line": 10,
+          "kind": "lớp/model"
+        },
+        {
+          "name": "Get",
+          "line": 12,
+          "kind": "hàm"
+        },
+        {
+          "name": "Roles",
+          "line": 13,
+          "kind": "hàm"
+        },
+        {
+          "name": "Update",
+          "line": 16,
+          "kind": "hàm"
+        },
+        {
+          "name": "Delete",
+          "line": 26,
+          "kind": "hàm"
+        }
+      ]
+    },
+    {
+      "file": "cuoiki/SurveyApi/Api/Controllers/PlanController.cs",
+      "lines": 33,
+      "sha256": "f1945813ffe9bed7ab00795759eb93a2c5c78cb09fbea15f1002d3e4b1e6e399",
+      "symbols": [
+        {
+          "name": "PlanController",
+          "line": 10,
+          "kind": "lớp/model"
+        },
+        {
+          "name": "Get",
+          "line": 13,
+          "kind": "hàm"
+        },
+        {
+          "name": "Put",
+          "line": 15,
+          "kind": "hàm"
+        },
+        {
+          "name": "Delete",
+          "line": 21,
+          "kind": "hàm"
+        },
+        {
+          "name": "Checkout",
+          "line": 27,
+          "kind": "hàm"
+        }
+      ]
+    },
+    {
+      "file": "cuoiki/SurveyApi/Api/Controllers/SurveyController.cs",
+      "lines": 74,
+      "sha256": "19261ded5509b706cf8e0825f6c4fcfe0004654d5168d3420f49ba87aad777f5",
+      "symbols": [
+        {
+          "name": "SurveyController",
+          "line": 10,
+          "kind": "lớp/model"
+        },
+        {
+          "name": "Get",
+          "line": 13,
+          "kind": "hàm"
+        },
+        {
+          "name": "Details",
+          "line": 18,
+          "kind": "hàm"
+        },
+        {
+          "name": "Related",
+          "line": 24,
+          "kind": "hàm"
+        },
+        {
+          "name": "Add",
+          "line": 32,
+          "kind": "hàm"
+        },
+        {
+          "name": "Update",
+          "line": 49,
+          "kind": "hàm"
+        },
+        {
+          "name": "Delete",
+          "line": 68,
+          "kind": "hàm"
+        }
+      ]
+    },
+    {
+      "file": "cuoiki/SurveyApi/Api/Models/BaseRepository.cs",
+      "lines": 8,
+      "sha256": "29c1a5366147fd8af90ca2ee41fb9ce13a31443fc8f1620eaf8fe32edcab8be8",
+      "symbols": [
+        {
+          "name": "BaseRepository",
+          "line": 5,
+          "kind": "lớp/model"
+        }
+      ]
+    },
+    {
+      "file": "cuoiki/SurveyApi/Api/Models/CampaignRepository.cs",
+      "lines": 95,
+      "sha256": "17a67877ca71ae45b2662bf9c7508a1df1f1523365698fc5125a64eca1265783",
+      "symbols": [
+        {
+          "name": "CampaignRepository",
+          "line": 7,
+          "kind": "lớp/model"
+        },
+        {
+          "name": "GetPlan",
+          "line": 9,
+          "kind": "hàm"
+        },
+        {
+          "name": "PutPlan",
+          "line": 12,
+          "kind": "hàm"
+        },
+        {
+          "name": "RemovePlan",
+          "line": 23,
+          "kind": "hàm"
+        },
+        {
+          "name": "Checkout",
+          "line": 26,
+          "kind": "hàm"
+        },
+        {
+          "name": "GetPage",
+          "line": 47,
+          "kind": "hàm"
+        },
+        {
+          "name": "Find",
+          "line": 61,
+          "kind": "hàm"
+        },
+        {
+          "name": "Items",
+          "line": 63,
+          "kind": "hàm"
+        },
+        {
+          "name": "SetStatus",
+          "line": 69,
+          "kind": "hàm"
+        },
+        {
+          "name": "Submit",
+          "line": 74,
+          "kind": "hàm"
+        },
+        {
+          "name": "Answers",
+          "line": 93,
+          "kind": "hàm"
+        }
+      ]
+    },
+    {
+      "file": "cuoiki/SurveyApi/Api/Models/CategoryRepository.cs",
+      "lines": 39,
+      "sha256": "5a18fc6ac14f0430eb3e9bb7ca5b9260723ada2c4b89095a92ed69650127c778",
+      "symbols": [
+        {
+          "name": "CategoryRepository",
+          "line": 6,
+          "kind": "lớp/model"
+        },
+        {
+          "name": "GetAll",
+          "line": 8,
+          "kind": "hàm"
+        },
+        {
+          "name": "Add",
+          "line": 9,
+          "kind": "hàm"
+        },
+        {
+          "name": "Update",
+          "line": 13,
+          "kind": "hàm"
+        },
+        {
+          "name": "Delete",
+          "line": 27,
+          "kind": "hàm"
+        }
+      ]
+    },
+    {
+      "file": "cuoiki/SurveyApi/Api/Models/Member.cs",
+      "lines": 38,
+      "sha256": "bf696419c9f7794a9fed788edb86862dbbeabb097264911c6cc2a5e59fe6fc33",
+      "symbols": [
+        {
+          "name": "Member",
+          "line": 5,
+          "kind": "lớp/model"
+        },
+        {
+          "name": "LoginModel",
+          "line": 16,
+          "kind": "lớp/model"
+        },
+        {
+          "name": "RegisterModel",
+          "line": 22,
+          "kind": "lớp/model"
+        },
+        {
+          "name": "ChangePasswordModel",
+          "line": 27,
+          "kind": "lớp/model"
+        },
+        {
+          "name": "UpdateMemberModel",
+          "line": 33,
+          "kind": "lớp/model"
+        }
+      ]
+    },
+    {
+      "file": "cuoiki/SurveyApi/Api/Models/MemberRepository.cs",
+      "lines": 53,
+      "sha256": "60880731ee685199af3fefb87f0f6511fc453e9beefd6c6dab302faf00aa8c4c",
+      "symbols": [
+        {
+          "name": "MemberRepository",
+          "line": 6,
+          "kind": "lớp/model"
+        },
+        {
+          "name": "FindByEmail",
+          "line": 8,
+          "kind": "hàm"
+        },
+        {
+          "name": "FindById",
+          "line": 14,
+          "kind": "hàm"
+        },
+        {
+          "name": "Add",
+          "line": 20,
+          "kind": "hàm"
+        },
+        {
+          "name": "GetMembers",
+          "line": 28,
+          "kind": "hàm"
+        },
+        {
+          "name": "GetRoles",
+          "line": 34,
+          "kind": "hàm"
+        },
+        {
+          "name": "ChangePassword",
+          "line": 36,
+          "kind": "hàm"
+        },
+        {
+          "name": "Logout",
+          "line": 40,
+          "kind": "hàm"
+        },
+        {
+          "name": "Update",
+          "line": 43,
+          "kind": "hàm"
+        },
+        {
+          "name": "Delete",
+          "line": 51,
+          "kind": "hàm"
+        }
+      ]
+    },
+    {
+      "file": "cuoiki/SurveyApi/Api/Models/SiteProvider.cs",
+      "lines": 17,
+      "sha256": "dd6f4cd962743060f8455cbd9caba40efc452aa83923a74d4b09ab2cfc4abcc2",
+      "symbols": [
+        {
+          "name": "SiteProvider",
+          "line": 5,
+          "kind": "lớp/model"
+        },
+        {
+          "name": "Dispose",
+          "line": 16,
+          "kind": "hàm"
+        }
+      ]
+    },
+    {
+      "file": "cuoiki/SurveyApi/Api/Models/Survey.cs",
+      "lines": 105,
+      "sha256": "5a1a457dca53af051bc0443f6aa773ca310765b76b78ddd83d99a2adb5ae7c5c",
+      "symbols": [
+        {
+          "name": "Category",
+          "line": 6,
+          "kind": "lớp/model"
+        },
+        {
+          "name": "CategoryForm",
+          "line": 14,
+          "kind": "lớp/model"
+        },
+        {
+          "name": "Survey",
+          "line": 22,
+          "kind": "lớp/model"
+        },
+        {
+          "name": "Question",
+          "line": 37,
+          "kind": "lớp/model"
+        },
+        {
+          "name": "SurveyForm",
+          "line": 46,
+          "kind": "lớp/model"
+        },
+        {
+          "name": "PageResult",
+          "line": 55,
+          "kind": "lớp/model"
+        },
+        {
+          "name": "TargetModel",
+          "line": 57,
+          "kind": "lớp/model"
+        },
+        {
+          "name": "CheckoutModel",
+          "line": 62,
+          "kind": "lớp/model"
+        },
+        {
+          "name": "ResponseModel",
+          "line": 68,
+          "kind": "lớp/model"
+        },
+        {
+          "name": "StatusModel",
+          "line": 74,
+          "kind": "lớp/model"
+        },
+        {
+          "name": "PlanItem",
+          "line": 79,
+          "kind": "lớp/model"
+        },
+        {
+          "name": "Campaign",
+          "line": 87,
+          "kind": "lớp/model"
+        },
+        {
+          "name": "CampaignItem",
+          "line": 97,
+          "kind": "lớp/model"
+        }
+      ]
+    },
+    {
+      "file": "cuoiki/SurveyApi/Api/Models/SurveyRepository.cs",
+      "lines": 69,
+      "sha256": "092856331283abd25fc7cfdb39da0745c7f531b930b75f6099b4e9fb3e29964d",
+      "symbols": [
+        {
+          "name": "SurveyRepository",
+          "line": 6,
+          "kind": "lớp/model"
+        },
+        {
+          "name": "GetPage",
+          "line": 14,
+          "kind": "hàm"
+        },
+        {
+          "name": "Find",
+          "line": 23,
+          "kind": "hàm"
+        },
+        {
+          "name": "Related",
+          "line": 25,
+          "kind": "hàm"
+        },
+        {
+          "name": "Add",
+          "line": 34,
+          "kind": "hàm"
+        },
+        {
+          "name": "Update",
+          "line": 41,
+          "kind": "hàm"
+        },
+        {
+          "name": "Delete",
+          "line": 57,
+          "kind": "hàm"
+        }
+      ]
+    },
+    {
+      "file": "cuoiki/SurveyApi/Api/Models/SurveyRules.cs",
+      "lines": 51,
+      "sha256": "6bfd2b2b4b422c799ff9a2f8b1cb4b060df4f092bf05ccdb3b64f4952f993b66",
+      "symbols": [
+        {
+          "name": "SurveyRules",
+          "line": 5,
+          "kind": "lớp/model"
+        },
+        {
+          "name": "ValidateQuestions",
+          "line": 7,
+          "kind": "hàm"
+        },
+        {
+          "name": "ValidateAnswers",
+          "line": 30,
+          "kind": "hàm"
+        }
+      ]
+    },
+    {
+      "file": "cuoiki/SurveyApi/Program.cs",
+      "lines": 77,
+      "sha256": "d26f8990ed765114e495e7c0c7f49d90032cb2b34d792721afdd377dfbf3e4af",
+      "symbols": []
+    },
+    {
+      "file": "cuoiki/SurveyApi/Services/ImageService.cs",
+      "lines": 32,
+      "sha256": "388f5e4b560b835b347c36a43ae68ef9e020e46731034619e333a4dc75b89a42",
+      "symbols": [
+        {
+          "name": "ImageService",
+          "line": 3,
+          "kind": "lớp/model"
+        },
+        {
+          "name": "Save",
+          "line": 5,
+          "kind": "hàm"
+        },
+        {
+          "name": "Delete",
+          "line": 25,
+          "kind": "hàm"
+        }
+      ]
+    },
+    {
+      "file": "cuoiki/survey_app/lib/local/local_database.dart",
+      "lines": 93,
+      "sha256": "e36f52b0bbcd8afa98c9e94723fee85b541514ca153ee4441d8f3321bb83fa6f",
+      "symbols": [
+        {
+          "name": "LocalDatabase",
+          "line": 4,
+          "kind": "lớp/model"
+        },
+        {
+          "name": "open",
+          "line": 6,
+          "kind": "hàm"
+        },
+        {
+          "name": "close",
+          "line": 28,
+          "kind": "hàm"
+        },
+        {
+          "name": "_createDrafts",
+          "line": 33,
+          "kind": "hàm"
+        },
+        {
+          "name": "saveDraft",
+          "line": 40,
+          "kind": "hàm"
+        },
+        {
+          "name": "draft",
+          "line": 56,
+          "kind": "hàm"
+        },
+        {
+          "name": "drafts",
+          "line": 65,
+          "kind": "hàm"
+        },
+        {
+          "name": "deleteDraft",
+          "line": 72,
+          "kind": "hàm"
+        },
+        {
+          "name": "clearDrafts",
+          "line": 80,
+          "kind": "hàm"
+        }
+      ]
+    },
+    {
+      "file": "cuoiki/survey_app/lib/main.dart",
+      "lines": 62,
+      "sha256": "1935fdcab824b8fe9034fec532ace05e14114ccd0f1ec9b274e078499437c366",
+      "symbols": [
+        {
+          "name": "main",
+          "line": 10,
+          "kind": "hàm"
+        },
+        {
+          "name": "SurveyApp",
+          "line": 26,
+          "kind": "lớp/model"
+        },
+        {
+          "name": "build",
+          "line": 30,
+          "kind": "hàm"
+        },
+        {
+          "name": "_SessionPage",
+          "line": 42,
+          "kind": "lớp/model"
+        },
+        {
+          "name": "_SessionPageState",
+          "line": 45,
+          "kind": "hàm"
+        },
+        {
+          "name": "_SessionPageState",
+          "line": 48,
+          "kind": "lớp/model"
+        },
+        {
+          "name": "build",
+          "line": 51,
+          "kind": "hàm"
+        }
+      ]
+    },
+    {
+      "file": "cuoiki/survey_app/lib/models/member.dart",
+      "lines": 19,
+      "sha256": "a2ef0e448672cff8f2f29ed3d93aa5abf16ad778a653c36192d81fb5f9649281",
+      "symbols": [
+        {
+          "name": "Member",
+          "line": 1,
+          "kind": "lớp/model"
+        }
+      ]
+    },
+    {
+      "file": "cuoiki/survey_app/lib/models/survey.dart",
+      "lines": 114,
+      "sha256": "1ee772438204122567b5a692923aa297149b0b47bd6eae59096fcb7445018b8d",
+      "symbols": [
+        {
+          "name": "Category",
+          "line": 1,
+          "kind": "lớp/model"
+        },
+        {
+          "name": "Question",
+          "line": 12,
+          "kind": "lớp/model"
+        },
+        {
+          "name": "toMap",
+          "line": 31,
+          "kind": "hàm"
+        },
+        {
+          "name": "Survey",
+          "line": 40,
+          "kind": "lớp/model"
+        },
+        {
+          "name": "toMap",
+          "line": 41,
+          "kind": "hàm"
+        },
+        {
+          "name": "PlanItem",
+          "line": 68,
+          "kind": "lớp/model"
+        },
+        {
+          "name": "Campaign",
+          "line": 77,
+          "kind": "lớp/model"
+        },
+        {
+          "name": "statusText",
+          "line": 87,
+          "kind": "hàm"
+        },
+        {
+          "name": "CampaignItem",
+          "line": 97,
+          "kind": "lớp/model"
+        },
+        {
+          "name": "PageData",
+          "line": 110,
+          "kind": "lớp/model"
+        }
+      ]
+    },
+    {
+      "file": "cuoiki/survey_app/lib/pages/campaign_details_page.dart",
+      "lines": 197,
+      "sha256": "6a477374de48d0a3686f56ed021ce17be15c7a147401d76548b28872b25b8aaf",
+      "symbols": [
+        {
+          "name": "CampaignDetailsPage",
+          "line": 9,
+          "kind": "lớp/model"
+        },
+        {
+          "name": "_CampaignDetailsPageState",
+          "line": 19,
+          "kind": "hàm"
+        },
+        {
+          "name": "_CampaignDetailsPageState",
+          "line": 22,
+          "kind": "lớp/model"
+        },
+        {
+          "name": "initState",
+          "line": 28,
+          "kind": "hàm"
+        },
+        {
+          "name": "_load",
+          "line": 33,
+          "kind": "hàm"
+        },
+        {
+          "name": "_status",
+          "line": 61,
+          "kind": "hàm"
+        },
+        {
+          "name": "build",
+          "line": 85,
+          "kind": "hàm"
+        }
+      ]
+    },
+    {
+      "file": "cuoiki/survey_app/lib/pages/campaign_list_page.dart",
+      "lines": 210,
+      "sha256": "bfde60832f6e5dfae982abd30e4e3b1ada1d33d9189068c0d71876e186098202",
+      "symbols": [
+        {
+          "name": "CampaignListPage",
+          "line": 8,
+          "kind": "lớp/model"
+        },
+        {
+          "name": "_CampaignListPageState",
+          "line": 18,
+          "kind": "hàm"
+        },
+        {
+          "name": "_CampaignListPageState",
+          "line": 21,
+          "kind": "lớp/model"
+        },
+        {
+          "name": "initState",
+          "line": 30,
+          "kind": "hàm"
+        },
+        {
+          "name": "dispose",
+          "line": 36,
+          "kind": "hàm"
+        },
+        {
+          "name": "_date",
+          "line": 41,
+          "kind": "hàm"
+        },
+        {
+          "name": "_load",
+          "line": 44,
+          "kind": "hàm"
+        },
+        {
+          "name": "_apply",
+          "line": 74,
+          "kind": "hàm"
+        },
+        {
+          "name": "_pickDate",
+          "line": 80,
+          "kind": "hàm"
+        },
+        {
+          "name": "build",
+          "line": 98,
+          "kind": "hàm"
+        }
+      ]
+    },
+    {
+      "file": "cuoiki/survey_app/lib/pages/category_page.dart",
+      "lines": 296,
+      "sha256": "df532e9a85af01648b67dde7b9ee87030b64a7cbf8854cfb6e0b8e76545004d4",
+      "symbols": [
+        {
+          "name": "CategoryPage",
+          "line": 12,
+          "kind": "lớp/model"
+        },
+        {
+          "name": "_CategoryPageState",
+          "line": 15,
+          "kind": "hàm"
+        },
+        {
+          "name": "_CategoryPageState",
+          "line": 18,
+          "kind": "lớp/model"
+        },
+        {
+          "name": "initState",
+          "line": 23,
+          "kind": "hàm"
+        },
+        {
+          "name": "_load",
+          "line": 28,
+          "kind": "hàm"
+        },
+        {
+          "name": "_edit",
+          "line": 43,
+          "kind": "hàm"
+        },
+        {
+          "name": "_delete",
+          "line": 55,
+          "kind": "hàm"
+        },
+        {
+          "name": "build",
+          "line": 75,
+          "kind": "hàm"
+        },
+        {
+          "name": "_CategoryDialog",
+          "line": 125,
+          "kind": "lớp/model"
+        },
+        {
+          "name": "_CategoryDialogState",
+          "line": 129,
+          "kind": "hàm"
+        },
+        {
+          "name": "_CategoryDialogState",
+          "line": 132,
+          "kind": "lớp/model"
+        },
+        {
+          "name": "initState",
+          "line": 140,
+          "kind": "hàm"
+        },
+        {
+          "name": "dispose",
+          "line": 147,
+          "kind": "hàm"
+        },
+        {
+          "name": "_save",
+          "line": 153,
+          "kind": "hàm"
+        },
+        {
+          "name": "_pickImage",
+          "line": 178,
+          "kind": "hàm"
+        },
+        {
+          "name": "build",
+          "line": 207,
+          "kind": "hàm"
+        }
+      ]
+    },
+    {
+      "file": "cuoiki/survey_app/lib/pages/change_password_page.dart",
+      "lines": 111,
+      "sha256": "ed4f4a1df9b96f8aa8d4c2db75135f207724ad44c9459e4278f570bb5fc9ff03",
+      "symbols": [
+        {
+          "name": "ChangePasswordPage",
+          "line": 8,
+          "kind": "lớp/model"
+        },
+        {
+          "name": "_ChangePasswordPageState",
+          "line": 12,
+          "kind": "hàm"
+        },
+        {
+          "name": "_ChangePasswordPageState",
+          "line": 15,
+          "kind": "lớp/model"
+        },
+        {
+          "name": "dispose",
+          "line": 23,
+          "kind": "hàm"
+        },
+        {
+          "name": "_save",
+          "line": 30,
+          "kind": "hàm"
+        },
+        {
+          "name": "build",
+          "line": 60,
+          "kind": "hàm"
+        }
+      ]
+    },
+    {
+      "file": "cuoiki/survey_app/lib/pages/drafts_page.dart",
+      "lines": 99,
+      "sha256": "db205210263b5c8be37f0d4630b0ab7a27dd5723c7b21e57dabc25f0e8949a58",
+      "symbols": [
+        {
+          "name": "DraftsPage",
+          "line": 9,
+          "kind": "lớp/model"
+        },
+        {
+          "name": "_DraftsPageState",
+          "line": 13,
+          "kind": "hàm"
+        },
+        {
+          "name": "_DraftsPageState",
+          "line": 16,
+          "kind": "lớp/model"
+        },
+        {
+          "name": "initState",
+          "line": 21,
+          "kind": "hàm"
+        },
+        {
+          "name": "_load",
+          "line": 26,
+          "kind": "hàm"
+        },
+        {
+          "name": "build",
+          "line": 40,
+          "kind": "hàm"
+        }
+      ]
+    },
+    {
+      "file": "cuoiki/survey_app/lib/pages/home_page.dart",
+      "lines": 212,
+      "sha256": "d6660fa959beb0eaad0c962c1a55c85adf30bb8aed757f1714d2a2bac476e0b5",
+      "symbols": [
+        {
+          "name": "HomePage",
+          "line": 17,
+          "kind": "lớp/model"
+        },
+        {
+          "name": "_HomePageState",
+          "line": 21,
+          "kind": "hàm"
+        },
+        {
+          "name": "_HomePageState",
+          "line": 24,
+          "kind": "lớp/model"
+        },
+        {
+          "name": "initState",
+          "line": 30,
+          "kind": "hàm"
+        },
+        {
+          "name": "_refreshPlan",
+          "line": 35,
+          "kind": "hàm"
+        },
+        {
+          "name": "_open",
+          "line": 44,
+          "kind": "hàm"
+        },
+        {
+          "name": "_logout",
+          "line": 52,
+          "kind": "hàm"
+        },
+        {
+          "name": "build",
+          "line": 107,
+          "kind": "hàm"
+        }
+      ]
+    },
+    {
+      "file": "cuoiki/survey_app/lib/pages/login_page.dart",
+      "lines": 183,
+      "sha256": "1cda33b81765327ee903c861febe158fece3a89262f260b8b5c52534e82a2054",
+      "symbols": [
+        {
+          "name": "LoginPage",
+          "line": 9,
+          "kind": "lớp/model"
+        },
+        {
+          "name": "_LoginPageState",
+          "line": 12,
+          "kind": "hàm"
+        },
+        {
+          "name": "_LoginPageState",
+          "line": 15,
+          "kind": "lớp/model"
+        },
+        {
+          "name": "dispose",
+          "line": 23,
+          "kind": "hàm"
+        },
+        {
+          "name": "_submit",
+          "line": 30,
+          "kind": "hàm"
+        },
+        {
+          "name": "build",
+          "line": 79,
+          "kind": "hàm"
+        }
+      ]
+    },
+    {
+      "file": "cuoiki/survey_app/lib/pages/member_page.dart",
+      "lines": 244,
+      "sha256": "401c962c01aa0da3652be35a5e3cb1a34eef351316d59e25952e321f8e176d15",
+      "symbols": [
+        {
+          "name": "MemberPage",
+          "line": 6,
+          "kind": "lớp/model"
+        },
+        {
+          "name": "_MemberPageState",
+          "line": 10,
+          "kind": "hàm"
+        },
+        {
+          "name": "_MemberPageState",
+          "line": 13,
+          "kind": "lớp/model"
+        },
+        {
+          "name": "initState",
+          "line": 19,
+          "kind": "hàm"
+        },
+        {
+          "name": "_load",
+          "line": 24,
+          "kind": "hàm"
+        },
+        {
+          "name": "_edit",
+          "line": 47,
+          "kind": "hàm"
+        },
+        {
+          "name": "_delete",
+          "line": 151,
+          "kind": "hàm"
+        },
+        {
+          "name": "build",
+          "line": 187,
+          "kind": "hàm"
+        }
+      ]
+    },
+    {
+      "file": "cuoiki/survey_app/lib/pages/plan_page.dart",
+      "lines": 260,
+      "sha256": "ac191385c40d45296ccfcc70edb90bc2a870c53fb94c349168bbda741ca66204",
+      "symbols": [
+        {
+          "name": "PlanPage",
+          "line": 8,
+          "kind": "lớp/model"
+        },
+        {
+          "name": "_PlanPageState",
+          "line": 13,
+          "kind": "hàm"
+        },
+        {
+          "name": "_PlanPageState",
+          "line": 16,
+          "kind": "lớp/model"
+        },
+        {
+          "name": "initState",
+          "line": 24,
+          "kind": "hàm"
+        },
+        {
+          "name": "dispose",
+          "line": 30,
+          "kind": "hàm"
+        },
+        {
+          "name": "_load",
+          "line": 35,
+          "kind": "hàm"
+        },
+        {
+          "name": "_target",
+          "line": 50,
+          "kind": "hàm"
+        },
+        {
+          "name": "_remove",
+          "line": 70,
+          "kind": "hàm"
+        },
+        {
+          "name": "_checkout",
+          "line": 89,
+          "kind": "hàm"
+        },
+        {
+          "name": "build",
+          "line": 127,
+          "kind": "hàm"
+        },
+        {
+          "name": "_TargetDialog",
+          "line": 206,
+          "kind": "lớp/model"
+        },
+        {
+          "name": "_TargetDialogState",
+          "line": 210,
+          "kind": "hàm"
+        },
+        {
+          "name": "_TargetDialogState",
+          "line": 213,
+          "kind": "lớp/model"
+        },
+        {
+          "name": "initState",
+          "line": 217,
+          "kind": "hàm"
+        },
+        {
+          "name": "dispose",
+          "line": 223,
+          "kind": "hàm"
+        },
+        {
+          "name": "build",
+          "line": 229,
+          "kind": "hàm"
+        }
+      ]
+    },
+    {
+      "file": "cuoiki/survey_app/lib/pages/response_page.dart",
+      "lines": 249,
+      "sha256": "85b03adc0fc37df74219616a89d04f190368c0e4c71c8ee321c703481b3d71c5",
+      "symbols": [
+        {
+          "name": "ResponsePage",
+          "line": 11,
+          "kind": "lớp/model"
+        },
+        {
+          "name": "_ResponsePageState",
+          "line": 21,
+          "kind": "hàm"
+        },
+        {
+          "name": "_ResponsePageState",
+          "line": 24,
+          "kind": "lớp/model"
+        },
+        {
+          "name": "initState",
+          "line": 31,
+          "kind": "hàm"
+        },
+        {
+          "name": "_load",
+          "line": 36,
+          "kind": "hàm"
+        },
+        {
+          "name": "_store",
+          "line": 58,
+          "kind": "hàm"
+        },
+        {
+          "name": "_save",
+          "line": 68,
+          "kind": "hàm"
+        },
+        {
+          "name": "_submit",
+          "line": 84,
+          "kind": "hàm"
+        },
+        {
+          "name": "_question",
+          "line": 131,
+          "kind": "hàm"
+        },
+        {
+          "name": "build",
+          "line": 213,
+          "kind": "hàm"
+        }
+      ]
+    },
+    {
+      "file": "cuoiki/survey_app/lib/pages/results_page.dart",
+      "lines": 112,
+      "sha256": "0c3d311afa9f86e06fd39594d5d66782c3eb902fa95459b4a75046d5bdcbf5be",
+      "symbols": [
+        {
+          "name": "ResultsPage",
+          "line": 6,
+          "kind": "lớp/model"
+        },
+        {
+          "name": "_ResultsPageState",
+          "line": 16,
+          "kind": "hàm"
+        },
+        {
+          "name": "_ResultsPageState",
+          "line": 19,
+          "kind": "lớp/model"
+        },
+        {
+          "name": "initState",
+          "line": 24,
+          "kind": "hàm"
+        },
+        {
+          "name": "_load",
+          "line": 29,
+          "kind": "hàm"
+        },
+        {
+          "name": "build",
+          "line": 48,
+          "kind": "hàm"
+        }
+      ]
+    },
+    {
+      "file": "cuoiki/survey_app/lib/pages/server_settings_page.dart",
+      "lines": 124,
+      "sha256": "183ad49ac082b689b772e9dee6b1e71442f13df9895b5eb051d617c95276e92b",
+      "symbols": [
+        {
+          "name": "ServerSettingsPage",
+          "line": 6,
+          "kind": "lớp/model"
+        },
+        {
+          "name": "_ServerSettingsPageState",
+          "line": 9,
+          "kind": "hàm"
+        },
+        {
+          "name": "_ServerSettingsPageState",
+          "line": 12,
+          "kind": "lớp/model"
+        },
+        {
+          "name": "dispose",
+          "line": 18,
+          "kind": "hàm"
+        },
+        {
+          "name": "_check",
+          "line": 23,
+          "kind": "hàm"
+        },
+        {
+          "name": "build",
+          "line": 51,
+          "kind": "hàm"
+        }
+      ]
+    },
+    {
+      "file": "cuoiki/survey_app/lib/pages/survey_details_page.dart",
+      "lines": 257,
+      "sha256": "33ff409d7df084507865517252c62096d06657c4bdeebc86bf77affe1efcce32",
+      "symbols": [
+        {
+          "name": "SurveyDetailsPage",
+          "line": 10,
+          "kind": "lớp/model"
+        },
+        {
+          "name": "_SurveyDetailsPageState",
+          "line": 19,
+          "kind": "hàm"
+        },
+        {
+          "name": "_SurveyDetailsPageState",
+          "line": 22,
+          "kind": "lớp/model"
+        },
+        {
+          "name": "initState",
+          "line": 31,
+          "kind": "hàm"
+        },
+        {
+          "name": "_load",
+          "line": 36,
+          "kind": "hàm"
+        },
+        {
+          "name": "_loadRelated",
+          "line": 55,
+          "kind": "hàm"
+        },
+        {
+          "name": "_addPlan",
+          "line": 78,
+          "kind": "hàm"
+        },
+        {
+          "name": "_delete",
+          "line": 98,
+          "kind": "hàm"
+        },
+        {
+          "name": "build",
+          "line": 120,
+          "kind": "hàm"
+        }
+      ]
+    },
+    {
+      "file": "cuoiki/survey_app/lib/pages/survey_edit_page.dart",
+      "lines": 365,
+      "sha256": "515207caa2950c2b9d7bb7a3a9149cb5da6b4164f38ca9f1586b6a39a34f4b49",
+      "symbols": [
+        {
+          "name": "SurveyEditPage",
+          "line": 8,
+          "kind": "lớp/model"
+        },
+        {
+          "name": "_SurveyEditPageState",
+          "line": 12,
+          "kind": "hàm"
+        },
+        {
+          "name": "_SurveyEditPageState",
+          "line": 15,
+          "kind": "lớp/model"
+        },
+        {
+          "name": "initState",
+          "line": 25,
+          "kind": "hàm"
+        },
+        {
+          "name": "dispose",
+          "line": 35,
+          "kind": "hàm"
+        },
+        {
+          "name": "_load",
+          "line": 41,
+          "kind": "hàm"
+        },
+        {
+          "name": "_pickImage",
+          "line": 60,
+          "kind": "hàm"
+        },
+        {
+          "name": "_editQuestion",
+          "line": 75,
+          "kind": "hàm"
+        },
+        {
+          "name": "_save",
+          "line": 96,
+          "kind": "hàm"
+        },
+        {
+          "name": "build",
+          "line": 128,
+          "kind": "hàm"
+        },
+        {
+          "name": "QuestionDialog",
+          "line": 241,
+          "kind": "lớp/model"
+        },
+        {
+          "name": "_QuestionDialogState",
+          "line": 252,
+          "kind": "hàm"
+        },
+        {
+          "name": "_QuestionDialogState",
+          "line": 255,
+          "kind": "lớp/model"
+        },
+        {
+          "name": "initState",
+          "line": 261,
+          "kind": "hàm"
+        },
+        {
+          "name": "dispose",
+          "line": 270,
+          "kind": "hàm"
+        },
+        {
+          "name": "_save",
+          "line": 276,
+          "kind": "hàm"
+        },
+        {
+          "name": "build",
+          "line": 298,
+          "kind": "hàm"
+        }
+      ]
+    },
+    {
+      "file": "cuoiki/survey_app/lib/pages/survey_list_view.dart",
+      "lines": 245,
+      "sha256": "3c3638cf234a2861f1b01132dc6ddb8158cce37de35b0d81e7615f66111957a8",
+      "symbols": [
+        {
+          "name": "SurveyListView",
+          "line": 11,
+          "kind": "lớp/model"
+        },
+        {
+          "name": "_SurveyListViewState",
+          "line": 22,
+          "kind": "hàm"
+        },
+        {
+          "name": "_SurveyListViewState",
+          "line": 25,
+          "kind": "lớp/model"
+        },
+        {
+          "name": "initState",
+          "line": 35,
+          "kind": "hàm"
+        },
+        {
+          "name": "dispose",
+          "line": 41,
+          "kind": "hàm"
+        },
+        {
+          "name": "_load",
+          "line": 46,
+          "kind": "hàm"
+        },
+        {
+          "name": "_details",
+          "line": 78,
+          "kind": "hàm"
+        },
+        {
+          "name": "_add",
+          "line": 93,
+          "kind": "hàm"
+        },
+        {
+          "name": "build",
+          "line": 106,
+          "kind": "hàm"
+        }
+      ]
+    },
+    {
+      "file": "cuoiki/survey_app/lib/repositories/campaign_repository.dart",
+      "lines": 90,
+      "sha256": "7f72d8ac8d0da70f51c724d8fc0732fcf9ce5ad3cf66b6aa63c1dcdceb04378c",
+      "symbols": [
+        {
+          "name": "CampaignRepository",
+          "line": 6,
+          "kind": "lớp/model"
+        },
+        {
+          "name": "newId",
+          "line": 7,
+          "kind": "hàm"
+        },
+        {
+          "name": "plan",
+          "line": 16,
+          "kind": "hàm"
+        },
+        {
+          "name": "putPlan",
+          "line": 20,
+          "kind": "hàm"
+        },
+        {
+          "name": "removePlan",
+          "line": 24,
+          "kind": "hàm"
+        },
+        {
+          "name": "checkout",
+          "line": 28,
+          "kind": "hàm"
+        },
+        {
+          "name": "getPage",
+          "line": 34,
+          "kind": "hàm"
+        },
+        {
+          "name": "details",
+          "line": 60,
+          "kind": "hàm"
+        },
+        {
+          "name": "status",
+          "line": 64,
+          "kind": "hàm"
+        },
+        {
+          "name": "submit",
+          "line": 68,
+          "kind": "hàm"
+        },
+        {
+          "name": "results",
+          "line": 81,
+          "kind": "hàm"
+        }
+      ]
+    },
+    {
+      "file": "cuoiki/survey_app/lib/repositories/member_repository.dart",
+      "lines": 105,
+      "sha256": "95f21a1318ed403a66ef98a1e77d943eac857f7e7f3e318118ba387e7e62d3a2",
+      "symbols": [
+        {
+          "name": "MemberRepository",
+          "line": 9,
+          "kind": "lớp/model"
+        },
+        {
+          "name": "request",
+          "line": 10,
+          "kind": "hàm"
+        },
+        {
+          "name": "changePassword",
+          "line": 16,
+          "kind": "hàm"
+        },
+        {
+          "name": "logout",
+          "line": 23,
+          "kind": "hàm"
+        },
+        {
+          "name": "getMembers",
+          "line": 34,
+          "kind": "hàm"
+        },
+        {
+          "name": "getRoles",
+          "line": 41,
+          "kind": "hàm"
+        },
+        {
+          "name": "updateMember",
+          "line": 43,
+          "kind": "hàm"
+        },
+        {
+          "name": "deleteMember",
+          "line": 56,
+          "kind": "hàm"
+        },
+        {
+          "name": "_post",
+          "line": 60,
+          "kind": "hàm"
+        },
+        {
+          "name": "login",
+          "line": 81,
+          "kind": "hàm"
+        },
+        {
+          "name": "register",
+          "line": 94,
+          "kind": "hàm"
+        }
+      ]
+    },
+    {
+      "file": "cuoiki/survey_app/lib/repositories/survey_repository.dart",
+      "lines": 114,
+      "sha256": "2dace84e56fd0a13ab398e7c8431e9cc9a512dc0979c63d098a92a1a77d6f781",
+      "symbols": [
+        {
+          "name": "SurveyRepository",
+          "line": 10,
+          "kind": "lớp/model"
+        },
+        {
+          "name": "categories",
+          "line": 11,
+          "kind": "hàm"
+        },
+        {
+          "name": "saveCategory",
+          "line": 15,
+          "kind": "hàm"
+        },
+        {
+          "name": "deleteCategory",
+          "line": 41,
+          "kind": "hàm"
+        },
+        {
+          "name": "getPage",
+          "line": 45,
+          "kind": "hàm"
+        },
+        {
+          "name": "related",
+          "line": 67,
+          "kind": "hàm"
+        },
+        {
+          "name": "details",
+          "line": 80,
+          "kind": "hàm"
+        },
+        {
+          "name": "delete",
+          "line": 85,
+          "kind": "hàm"
+        },
+        {
+          "name": "save",
+          "line": 89,
+          "kind": "hàm"
+        }
+      ]
+    },
+    {
+      "file": "cuoiki/survey_app/lib/services/api_service.dart",
+      "lines": 140,
+      "sha256": "02f02c5addb68f9b2d0ef40bddb2e5e6e6abebdf6be63e104e847b14b3d1b0fe",
+      "symbols": [
+        {
+          "name": "ApiService",
+          "line": 9,
+          "kind": "lớp/model"
+        },
+        {
+          "name": "normalizeUrl",
+          "line": 20,
+          "kind": "hàm"
+        },
+        {
+          "name": "initialize",
+          "line": 38,
+          "kind": "hàm"
+        },
+        {
+          "name": "saveServer",
+          "line": 43,
+          "kind": "hàm"
+        },
+        {
+          "name": "checkServer",
+          "line": 49,
+          "kind": "hàm"
+        },
+        {
+          "name": "upload",
+          "line": 74,
+          "kind": "hàm"
+        },
+        {
+          "name": "request",
+          "line": 90,
+          "kind": "hàm"
+        },
+        {
+          "name": "imageUrl",
+          "line": 139,
+          "kind": "hàm"
+        }
+      ]
+    },
+    {
+      "file": "cuoiki/survey_app/lib/services/session_helper.dart",
+      "lines": 32,
+      "sha256": "e3d40fac2113126a9aaad957f4e4110029f49d963623c1e417310c75aac19544",
+      "symbols": [
+        {
+          "name": "SessionHelper",
+          "line": 7,
+          "kind": "lớp/model"
+        },
+        {
+          "name": "save",
+          "line": 9,
+          "kind": "hàm"
+        },
+        {
+          "name": "restore",
+          "line": 15,
+          "kind": "hàm"
+        },
+        {
+          "name": "clear",
+          "line": 28,
+          "kind": "hàm"
+        }
+      ]
+    },
+    {
+      "file": "cuoiki/survey_app/lib/widgets/category_image.dart",
+      "lines": 27,
+      "sha256": "918cb895203e9e16582808a61d21cff57f5f2f12ee419213b29b3b4290b18848",
+      "symbols": [
+        {
+          "name": "CategoryImage",
+          "line": 5,
+          "kind": "lớp/model"
+        },
+        {
+          "name": "build",
+          "line": 10,
+          "kind": "hàm"
+        }
+      ]
+    },
+    {
+      "file": "cuoiki/survey_app/lib/widgets/common.dart",
+      "lines": 62,
+      "sha256": "db9ef13eabe60c1970fc9f994743896195699b8b4a4a4b75be548e3749bb20a1",
+      "symbols": [
+        {
+          "name": "errorText",
+          "line": 3,
+          "kind": "hàm"
+        },
+        {
+          "name": "showMessage",
+          "line": 5,
+          "kind": "hàm"
+        },
+        {
+          "name": "confirmAction",
+          "line": 8,
+          "kind": "hàm"
+        },
+        {
+          "name": "PageButtons",
+          "line": 32,
+          "kind": "lớp/model"
+        },
+        {
+          "name": "build",
+          "line": 42,
+          "kind": "hàm"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+**/bin/
+**/obj/
+**/.dart_tool/
+**/build/
+**/.env
+**/appsettings.Development.json
+**/local.properties
+**/.gradle-local/
+**/apk-build.log
+**/device-test.log
+**/device-sqlite-build.log
+**/.local-jwt-key
+**/stop-gradle.log
+**/wwwroot/uploads/*
